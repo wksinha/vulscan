@@ -1,0 +1,42 @@
+[
+    {
+        "id": "CVE-2023-12345",
+        "component": "Authentication Module",
+        "severity": "Critical",
+        "cvss": 9.8,
+        "description": "A buffer overflow vulnerability in component XYZ allows remote attackers to execute arbitrary code.",
+        "patched": false
+    },
+    {
+        "id": "CVE-2023-23456",
+        "component": "Database Module",
+        "severity": "High",
+        "cvss": 8.2,
+        "description": "An SQL injection vulnerability in module ABC could allow attackers to gain unauthorized access to the database.",
+        "patched": false
+    },
+    {
+        "id": "CVE-2023-34567",
+        "component": "UI Frontend",
+        "severity": "Medium",
+        "cvss": 6.5,
+        "description": "Improper input validation in function DEF exposes users to potential XSS attacks.",
+        "patched": false
+    },
+    {
+        "id": "CVE-2023-45678",
+        "component": "Memory Management",
+        "severity": "Low",
+        "cvss": 3.1,
+        "description": "A memory leak issue in the GHI component could lead to degraded system performance over time.",
+        "patched": false
+    },
+    {
+        "id": "CVE-2023-56789",
+        "component": "Kernel Module",
+        "severity": "Critical",
+        "cvss": 10.0,
+        "description": "A privilege escalation vulnerability in kernel mode allows attackers to gain root access.",
+        "patched": false
+    }
+]

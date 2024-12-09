@@ -1,0 +1,40 @@
+{
+  "name": "VulCan",
+  "version": "1.0.0",
+  "description": "UI to faciliate vulnerabilty  scanning and patching of the apps",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "react-start": "react-scripts start",
+    "build": "react-scripts build",
+    "electron-build": "electron-packager . vulnerability-scanner --platform=win32,darwin,linux"
+  },
+  "author": "Mohan Gudey",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "bootstrap": "^5.3.3",
+    "electron-is-dev": "^3.0.1",
+    "express": "^4.17.1",
+    "lowdb": "^7.0.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "electron": "^22.0.0",
+    "electron-packager": "^16.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

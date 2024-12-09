@@ -1,0 +1,22 @@
+/* src/App.css */
+.progress-bar {
+    width: 100%;
+    background-color: #f3f3f3;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.progress-bar-fill {
+    height: 20px;
+    background-color: #4caf50;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.vulnerabilities {
+    /* padding: 20px; */
+    font-family: Arial, sans-serif;
+}
