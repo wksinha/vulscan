@@ -1,5 +1,7 @@
 # Architecture
 
+![Architecture Diagram](Architecture.png?raw=true "Architecture")
+
 ## UI
 - Allows user to interact and control actions
     - Initiate Scan
